@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.auser.mymap171206_01.MainActivity">
+    <item
+        android:id="@+id/mark"
+        android:orderInCategory="100"
+        android:title="標記"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/ic_launcher_round"
+        />
+    <item
+        android:id="@+id/traffic"
+        android:title="顯示交通狀況"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/settle"
+        android:title="顯示衛星圖"
+        android:checkable="true"
+        />
+    <item android:id="@+id/currpoint"
+        android:title="移到目前的位置"/>
+    <item
+        android:id="@+id/setup"
+        android:title="開啟定位"
+        />
+    <item
+        android:id="@+id/quit"
+        android:title="離開程式"
+        />
+</menu>
